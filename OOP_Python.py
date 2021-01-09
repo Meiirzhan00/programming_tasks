@@ -16,3 +16,22 @@ class BMI:
 
 bmi1=BMI()
 print(bmi1.bmi_calculator())
+
+-------------------------------------------------------------
+
+class Person:
+
+  name=input("Input your name: ")
+  surname=input("Input your surname: ")
+  place_of_birth=input("Input your place of birthday: ")
+  year_of_birth=input("Input your year of birthday: ")
+
+  def print_info_person(self):
+    return f"name: {Person.name} , surname: {Person.surname} , place_of_birth: {Person.place_of_birth} , year_of_birth: {Person.year_of_birth} "
+  
+  def get_age(self,current_year):
+    return f"{Person.name} {current_year-int(Person.year_of_birth)} years old !"
+
+p1=Person()
+print(p1.print_info_person())
+print(p1.get_age(2021))
