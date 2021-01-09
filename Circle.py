@@ -30,8 +30,8 @@ print(c2.area())
 class BMI:
     
     name=input("What is your name : ")
-    weight=float(input("What is your weight: "))
-    height=float(input("What is your height: "))
+    weight=float(input("How much is your weight:: "))
+    height=float(input("How much is your height: "))
 
     def bmi_calculator(self):
         
